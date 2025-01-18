@@ -12,7 +12,8 @@ Group:          Development/Other
 License:        MIT
 URL:            https://lunarmodules.github.io/luaexpat/
 Source0:        https://github.com/lunarmodules/luaexpat/archive/%{version}/luaexpat-%{version}.tar.gz
-Requires:       lua(abi) = %{lua_version}
+
+Requires:       lua
 
 BuildRequires:  make
 BuildRequires:  lua
