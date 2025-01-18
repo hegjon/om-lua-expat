@@ -1,3 +1,5 @@
+%define _disable_ld_no_undefined 1
+
 %define lua_version %(lua -e 'print(_VERSION)' | cut -d ' ' -f 2)
 %define lua_libdir %{_libdir}/lua/%{lua_version}
 %define lua_pkgdir %{_datadir}/lua/%{lua_version}
