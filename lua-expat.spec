@@ -15,8 +15,8 @@ Source0:        https://github.com/lunarmodules/luaexpat/archive/%{version}/luae
 Requires:       lua(abi) = %{lua_version}
 
 BuildRequires:  make
-BuildRequires:  lua >= %{lua_version}
-BuildRequires:  lua-devel >= %{lua_version}
+BuildRequires:  lua
+BuildRequires:  lua-devel
 BuildRequires:  expat-devel >= 2.4.0
 
 %description
